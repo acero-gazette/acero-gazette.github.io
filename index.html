@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+The Penguin Gazette</title>
+<style>
+	img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+<script type="text/javascript">
+	function load() {
+	var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+	var h = (w/4) * 3;
+	document.getElementById('penguin').src = "https://source.unsplash.com/collection/510261,861649/" + w + "x" + h;
+}
+	
+	</script>
+</head>
+<body onload="load()">
+	<div>
+		
+		<p style="text-align: center; font-size: 28px; font-family: 'plainblacknormal'; ">The Penguin Gazette</p>
+  <img class="center" id="penguin"/></div>
+</div>
+
+</body>
+</html>
